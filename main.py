@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup as bs
 import csv
-
+# A new comment added
 # Function for writing to csv file
 def write_csv(data):
 	with open('data.csv', 'a', encoding='utf-8') as file:
